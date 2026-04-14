@@ -30,39 +30,6 @@ ROLES_CONFIG = {
     },
 }
 
-def update_client_secrets():
-    client_secret = frappe.conf.get("OAUTH_CLIENT_SECRET")
-    if not client_secret:
-        frappe.log_error("OAUTH_CLIENT_SECRET not set in common_site_config.json")
-        return
-
-    def update_docs(docs_to_update: List[Document]):
-        """Update client_secret on given docs"""
-        for doc in docs_to_update:
-            print("updating", doc, "with", client_secret)
-            if hasattr(doc, "client_secret"):
-                doc.set("client_secret", client_secret)
-                doc.save(ignore_permissions=True)
-
-    docs_to_update: List[Document] = []
-
-    # Social Login Key (regular DocType)
-    try:
-        docs_to_update.append(frappe.get_doc("Social Login Key", "google"))
-    except frappe.db.TableMissingError:
-        frappe.logger().warning("Social Login Key table missing, skipping.")
-
-    # Google Settings (Single DocType)
-    try:
-        docs_to_update.append(frappe.get_single("Google Settings"))
-    except frappe.db.TableMissingError:
-        frappe.logger().warning("Google Settings table missing, skipping.")
-
-    # Call the small updater function
-    update_docs(docs_to_update)
-
-    frappe.db.commit()
-    frappe.logger().info("OAuth client secrets updated from common_site_config.json")
 def seed_initial_users(users: list[dict], password: str, role: str = "Marketer"):
     for u in users:
         email = u["email"].strip().lower()
@@ -106,7 +73,6 @@ def after_migrate():
         password=INITIAL_USERS_PASSWORD,
         role="Marketer"
     )
-    update_client_secrets()
     return {"ok" : True}
 
 
