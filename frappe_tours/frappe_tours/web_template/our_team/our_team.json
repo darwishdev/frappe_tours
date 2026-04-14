@@ -1,0 +1,79 @@
+{
+ "__islocal": true,
+ "docstatus": 0,
+ "doctype": "Web Template",
+ "fields": [
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 1,
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 1,
+   "fieldname": "brief",
+   "fieldtype": "Markdown Editor",
+   "label": "Brief",
+   "reqd": 0
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 0,
+   "fieldname": "members",
+   "fieldtype": "Table Break",
+   "label": "Members",
+   "reqd": 0
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 0,
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image",
+   "reqd": 0
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 1,
+   "fieldname": "name",
+   "fieldtype": "Data",
+   "label": "Name",
+   "reqd": 1
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 1,
+   "fieldname": "member_title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "reqd": 0
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 1,
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description",
+   "reqd": 0
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 0,
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email",
+   "reqd": 0
+  }
+ ],
+ "idx": 0,
+ "modified": "2026-04-14 19:00:08.201173",
+ "modified_by": "Administrator",
+ "module": "Frappe Tours",
+ "name": "Our Team",
+ "standard": 1,
+ "template": "",
+ "type": "Section"
+}

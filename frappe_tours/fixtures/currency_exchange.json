@@ -1,0 +1,10 @@
+[
+ {
+  "doctype": "Currency Exchange",
+  "name": "USD-EUR",
+  "from_currency": "USD",
+  "to_currency": "EUR",
+  "exchange_rate": 0.85,
+  "date": "2026-04-14"
+ }
+]

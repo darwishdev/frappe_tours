@@ -20,7 +20,32 @@ app_license = "mit"
 # 		"has_permission": "frappe_tours.api.permission.has_app_permission"
 # 	}
 # ]
+doctype_js = {
+    "Web Page": "public/js/web_page.js",
+}
+after_install = "frappe_tours.pkg.installer.installer.after_install"
+after_migrate = "frappe_tours.pkg.installer.installer.after_migrate"
+fixtures = [
+    {
+		"doctype": "Web Template",
+		"filters": [
+			["module", "=", "Frappe Tours"]
+		]
+	},
+    {
+		"doctype": "Web Translations",
 
+	},
+	{
+		"doctype": "Web Page",
+		"filters": [
+			["module", "=", "Frappe Tours"]
+		]
+	},
+	{
+		"doctype": "Currency Exchange",
+	}
+]
 # Includes in <head>
 # ------------------
 

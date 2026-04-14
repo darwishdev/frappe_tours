@@ -1,0 +1,55 @@
+{
+ "__islocal": true,
+ "docstatus": 0,
+ "doctype": "Web Template",
+ "fields": [
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 0,
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 0,
+   "fieldname": "description",
+   "fieldtype": "Markdown Editor",
+   "label": "Description",
+   "reqd": 1
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 0,
+   "fieldname": "logos",
+   "fieldtype": "Table Break",
+   "label": "Logos",
+   "reqd": 0
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 0,
+   "fieldname": "logo",
+   "fieldtype": "Attach Image",
+   "label": "Logo",
+   "reqd": 1
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 1,
+   "fieldname": "logo_alt",
+   "fieldtype": "Data",
+   "label": "Logo ALT Text",
+   "reqd": 0
+  }
+ ],
+ "idx": 0,
+ "modified": "2026-04-14 19:00:08.192830",
+ "modified_by": "Administrator",
+ "module": "Frappe Tours",
+ "name": "Partners",
+ "standard": 1,
+ "template": "",
+ "type": "Section"
+}

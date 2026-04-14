@@ -1,0 +1,197 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2026-03-24 20:13:42.496925",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "from_destination",
+  "to_destination",
+  "price_per_adult",
+  "price_per_child",
+  "column_break_jnda",
+  "internal_transfer_fee",
+  "external_transfer_fee",
+  "transfer_type",
+  "transfer_fee",
+  "image",
+  "section_break_vgvl",
+  "tour_guide_included",
+  "column_break_iznc",
+  "launch_included",
+  "section_break_goub",
+  "program",
+  "section_break_ziqg",
+  "images",
+  "section_break_mkiv",
+  "description",
+  "column_break_xfnk",
+  "included_on_the_package",
+  "column_break_izem",
+  "not_included_on_the_package",
+  "section_break_translations",
+  "translations_html"
+ ],
+ "fields": [
+  {
+   "fieldname": "description",
+   "fieldtype": "Text Editor",
+   "label": "Description"
+  },
+  {
+   "fieldname": "price_per_adult",
+   "fieldtype": "Currency",
+   "label": "Price Per Adult"
+  },
+  {
+   "fieldname": "price_per_child",
+   "fieldtype": "Currency",
+   "label": "Price Per Child"
+  },
+  {
+   "fieldname": "internal_transfer_fee",
+   "fieldtype": "Currency",
+   "label": "Internal Transfer Fee"
+  },
+  {
+   "fieldname": "external_transfer_fee",
+   "fieldtype": "Currency",
+   "label": "External Transfer Fee"
+  },
+  {
+   "default": "0",
+   "fieldname": "launch_included",
+   "fieldtype": "Check",
+   "label": "Launch Included"
+  },
+  {
+   "default": "0",
+   "fieldname": "tour_guide_included",
+   "fieldtype": "Check",
+   "label": "Tour Guide Included"
+  },
+  {
+   "fieldname": "from_destination",
+   "fieldtype": "Link",
+   "label": "From Destination",
+   "options": "Locations"
+  },
+  {
+   "fieldname": "to_destination",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "To Destination",
+   "options": "Locations",
+   "reqd": 1
+  },
+  {
+   "fieldname": "transfer_type",
+   "fieldtype": "Select",
+   "label": "Transfer Type",
+   "options": "\nPlane\nVAN"
+  },
+  {
+   "fieldname": "transfer_fee",
+   "fieldtype": "Currency",
+   "label": "Transfer Fee"
+  },
+  {
+   "fieldname": "column_break_jnda",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_vgvl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_mkiv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_iznc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "included_on_the_package",
+   "fieldtype": "Text Editor",
+   "label": "Included On The Package"
+  },
+  {
+   "fieldname": "section_break_goub",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "program",
+   "fieldtype": "Table",
+   "label": "Program",
+   "options": "Tour Program"
+  },
+  {
+   "fieldname": "not_included_on_the_package",
+   "fieldtype": "Text Editor",
+   "label": "Not Included On The Package"
+  },
+  {
+   "fieldname": "column_break_xfnk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_izem",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_translations",
+   "fieldtype": "Section Break",
+   "label": "Translations"
+  },
+  {
+   "fieldname": "translations_html",
+   "fieldtype": "HTML",
+   "label": "Translations"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "images",
+   "fieldtype": "Table",
+   "label": "Images",
+   "options": "Record Files"
+  },
+  {
+   "fieldname": "section_break_ziqg",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-04-14 14:45:08.788264",
+ "modified_by": "Administrator",
+ "module": "Frappe Tours",
+ "name": "Tours",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

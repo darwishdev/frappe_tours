@@ -1,0 +1,599 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "title",
+    "fieldtype": "Data",
+    "label": "Title",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "description",
+    "fieldtype": "Markdown Editor",
+    "label": "Description",
+    "options": "Markdown",
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "cover_image",
+    "fieldtype": "Attach Image",
+    "label": "Cover Image",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "image_alt",
+    "fieldtype": "Data",
+    "label": "Image ALT Text",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "first_button_label",
+    "fieldtype": "Data",
+    "label": "1st Button Label",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "first_button_url",
+    "fieldtype": "Data",
+    "label": "First Button Url",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "second_button_label",
+    "fieldtype": "Data",
+    "label": "Second Button Label",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "second_button_url",
+    "fieldtype": "Data",
+    "label": "Second Button Url",
+    "options": null,
+    "reqd": 0
+   }
+  ],
+  "modified": "2026-03-24 19:36:30.626508",
+  "module": "Frappe Tours",
+  "name": "Home Banner",
+  "standard": 1,
+  "template": "",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "title",
+    "fieldtype": "Data",
+    "label": "Title",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "description",
+    "fieldtype": "Markdown Editor",
+    "label": "Description",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "image",
+    "fieldtype": "Attach Image",
+    "label": "Image",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "image_alt",
+    "fieldtype": "Data",
+    "label": "Image ALT Text",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "pullets",
+    "fieldtype": "Table Break",
+    "label": "Pullets",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "pullet_point",
+    "fieldtype": "Data",
+    "label": "Pullet Point",
+    "options": null,
+    "reqd": 0
+   }
+  ],
+  "modified": "2026-04-13 23:04:40.038719",
+  "module": "Frappe Tours",
+  "name": "About Us",
+  "standard": 1,
+  "template": "",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "subtitle",
+    "fieldtype": "Data",
+    "label": "Subtitle",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "title",
+    "fieldtype": "Data",
+    "label": "Title",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "description",
+    "fieldtype": "Markdown Editor",
+    "label": "Description",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "map_image",
+    "fieldtype": "Attach Image",
+    "label": "Map Image",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "image_alt",
+    "fieldtype": "Data",
+    "label": "Image ALT Text",
+    "options": null,
+    "reqd": 0
+   }
+  ],
+  "modified": "2026-03-22 17:13:26.796261",
+  "module": "Frappe Tours",
+  "name": "Home Map",
+  "standard": 1,
+  "template": "",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "title",
+    "fieldtype": "Data",
+    "label": "Title",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "description",
+    "fieldtype": "Markdown Editor",
+    "label": "Description",
+    "options": null,
+    "reqd": 1
+   }
+  ],
+  "modified": "2026-03-22 17:13:58.531705",
+  "module": "Frappe Tours",
+  "name": "Trips",
+  "standard": 1,
+  "template": "",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "title",
+    "fieldtype": "Data",
+    "label": "Title",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "description",
+    "fieldtype": "Markdown Editor",
+    "label": "Description",
+    "options": null,
+    "reqd": 1
+   }
+  ],
+  "modified": "2026-03-22 17:14:34.787919",
+  "module": "Frappe Tours",
+  "name": "Blog",
+  "standard": 1,
+  "template": "",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "title",
+    "fieldtype": "Data",
+    "label": "Title",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "description",
+    "fieldtype": "Markdown Editor",
+    "label": "Description",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "logos",
+    "fieldtype": "Table Break",
+    "label": "Logos",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "logo",
+    "fieldtype": "Attach Image",
+    "label": "Logo",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "logo_alt",
+    "fieldtype": "Data",
+    "label": "Logo ALT Text",
+    "options": null,
+    "reqd": 0
+   }
+  ],
+  "modified": "2026-04-14 17:20:40",
+  "module": "Frappe Tours",
+  "name": "Partners",
+  "standard": 1,
+  "template": "",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "title",
+    "fieldtype": "Data",
+    "label": "Title",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "description",
+    "fieldtype": "Markdown Editor",
+    "label": "Description",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "image",
+    "fieldtype": "Attach Image",
+    "label": "Image",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "image_alt",
+    "fieldtype": "Data",
+    "label": "Image ALT Text",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "items",
+    "fieldtype": "Table Break",
+    "label": "Items",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "icon",
+    "fieldtype": "Data",
+    "label": "Icon",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "item_title",
+    "fieldtype": "Data",
+    "label": "Item Title",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "item_brief",
+    "fieldtype": "Data",
+    "label": "Item Brief",
+    "options": null,
+    "reqd": 0
+   }
+  ],
+  "modified": "2026-04-14 17:20:40",
+  "module": "Frappe Tours",
+  "name": "About Info",
+  "standard": 1,
+  "template": "",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "title",
+    "fieldtype": "Data",
+    "label": "Title",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "brief",
+    "fieldtype": "Markdown Editor",
+    "label": "Brief",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "members",
+    "fieldtype": "Table Break",
+    "label": "Members",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "image",
+    "fieldtype": "Attach Image",
+    "label": "Image",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "name",
+    "fieldtype": "Data",
+    "label": "Name",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "member_title",
+    "fieldtype": "Data",
+    "label": "Title",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "description",
+    "fieldtype": "Small Text",
+    "label": "Description",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "email",
+    "fieldtype": "Data",
+    "label": "Email",
+    "options": null,
+    "reqd": 0
+   }
+  ],
+  "modified": "2026-04-14 17:20:40",
+  "module": "Frappe Tours",
+  "name": "Our Team",
+  "standard": 1,
+  "template": "",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "title",
+    "fieldtype": "Data",
+    "label": "Title",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "description",
+    "fieldtype": "Markdown Editor",
+    "label": "Description",
+    "options": null,
+    "reqd": 1
+   }
+  ],
+  "modified": "2026-03-22 17:11:59.900693",
+  "module": "Frappe Tours",
+  "name": "Destinations",
+  "standard": 1,
+  "template": "",
+  "type": "Section"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Template",
+  "fields": [
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "title",
+    "fieldtype": "Data",
+    "label": "Title",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "brief",
+    "fieldtype": "Markdown Editor",
+    "label": "Brief",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "items",
+    "fieldtype": "Table Break",
+    "label": "Items",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "icon",
+    "fieldtype": "Data",
+    "label": "Icon",
+    "options": null,
+    "reqd": 0
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "label",
+    "fieldtype": "Data",
+    "label": "Label",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 1,
+    "default": null,
+    "fieldname": "value",
+    "fieldtype": "Data",
+    "label": "Value",
+    "options": null,
+    "reqd": 1
+   },
+   {
+    "custom_is_translion_allowed": 0,
+    "default": null,
+    "fieldname": "map_embed",
+    "fieldtype": "Small Text",
+    "label": "Map Embed",
+    "options": null,
+    "reqd": 0
+   }
+  ],
+  "modified": "2026-04-14 17:20:40",
+  "module": "Frappe Tours",
+  "name": "Contact Info",
+  "standard": 1,
+  "template": "",
+  "type": "Section"
+ }
+]

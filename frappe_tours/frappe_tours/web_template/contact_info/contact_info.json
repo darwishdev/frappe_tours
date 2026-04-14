@@ -1,0 +1,71 @@
+{
+ "__islocal": true,
+ "docstatus": 0,
+ "doctype": "Web Template",
+ "fields": [
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 1,
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "reqd": 1
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 1,
+   "fieldname": "brief",
+   "fieldtype": "Markdown Editor",
+   "label": "Brief",
+   "reqd": 0
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 0,
+   "fieldname": "items",
+   "fieldtype": "Table Break",
+   "label": "Items",
+   "reqd": 0
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 0,
+   "fieldname": "icon",
+   "fieldtype": "Data",
+   "label": "Icon",
+   "reqd": 0
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 1,
+   "fieldname": "label",
+   "fieldtype": "Data",
+   "label": "Label",
+   "reqd": 1
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 1,
+   "fieldname": "value",
+   "fieldtype": "Data",
+   "label": "Value",
+   "reqd": 1
+  },
+  {
+   "__islocal": 1,
+   "custom_is_translion_allowed": 0,
+   "fieldname": "map_embed",
+   "fieldtype": "Small Text",
+   "label": "Map Embed",
+   "reqd": 0
+  }
+ ],
+ "idx": 0,
+ "modified": "2026-04-14 19:00:08.207995",
+ "modified_by": "Administrator",
+ "module": "Frappe Tours",
+ "name": "Contact Info",
+ "standard": 1,
+ "template": "",
+ "type": "Section"
+}

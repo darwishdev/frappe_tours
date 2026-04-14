@@ -1,0 +1,107 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-04-13 23:08:31.271769",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "client_name",
+  "tour",
+  "reservation_date",
+  "adults",
+  "children",
+  "infants",
+  "include_internal_transfer",
+  "include_external_transfer",
+  "price_per_adult",
+  "price_per_child",
+  "total_price"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Data",
+   "label": "Client Name"
+  },
+  {
+   "fieldname": "tour",
+   "fieldtype": "Link",
+   "label": "Tour",
+   "options": "Tours"
+  },
+  {
+   "fieldname": "reservation_date",
+   "fieldtype": "Data",
+   "label": "Reservation Date"
+  },
+  {
+   "fieldname": "adults",
+   "fieldtype": "Int",
+   "label": "Adults"
+  },
+  {
+   "fieldname": "children",
+   "fieldtype": "Int",
+   "label": "Children"
+  },
+  {
+   "fieldname": "infants",
+   "fieldtype": "Int",
+   "label": "Infants"
+  },
+  {
+   "default": "0",
+   "fieldname": "include_internal_transfer",
+   "fieldtype": "Check",
+   "label": "Include Internal Transfer"
+  },
+  {
+   "default": "0",
+   "fieldname": "include_external_transfer",
+   "fieldtype": "Check",
+   "label": "Include External Transfer"
+  },
+  {
+   "fieldname": "price_per_adult",
+   "fieldtype": "Currency",
+   "label": "Price Per Adult"
+  },
+  {
+   "fieldname": "price_per_child",
+   "fieldtype": "Currency",
+   "label": "Price Per Child"
+  },
+  {
+   "fieldname": "total_price",
+   "fieldtype": "Currency",
+   "label": "Total Price"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-04-13 23:11:51.249334",
+ "modified_by": "Administrator",
+ "module": "Frappe Tours",
+ "name": "Tour Reservation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

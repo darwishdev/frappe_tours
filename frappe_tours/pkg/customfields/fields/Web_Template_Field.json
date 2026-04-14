@@ -1,0 +1,11 @@
+[
+  {
+    "fieldname": "custom_is_translion_allowed",
+    "label": "Translation Allowed",
+    "fieldtype": "Check",
+    "insert_after": "mandatory",
+    "in_list_view": 1,
+    "in_standard_filter": 1,
+    "reqd": 0
+  }
+]

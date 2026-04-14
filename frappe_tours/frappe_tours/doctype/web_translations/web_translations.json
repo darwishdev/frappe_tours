@@ -1,0 +1,85 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-03-23 22:32:48.488398",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "locale",
+  "translated_key",
+  "translated_value",
+  "parent_type",
+  "parent_id",
+  "translated_field"
+ ],
+ "fields": [
+  {
+   "fieldname": "locale",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Locale",
+   "options": "Available Languages",
+   "reqd": 1
+  },
+  {
+   "fieldname": "translated_key",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Translated key",
+   "reqd": 1
+  },
+  {
+   "fieldname": "translated_value",
+   "fieldtype": "Text Editor",
+   "in_list_view": 1,
+   "label": "Translated Value",
+   "reqd": 1
+  },
+  {
+   "fieldname": "parent_type",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Parent type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "parent_id",
+   "fieldtype": "Data",
+   "label": "Parent",
+   "reqd": 1
+  },
+  {
+   "fieldname": "translated_field",
+   "fieldtype": "Data",
+   "label": "Translated Field",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-03-24 14:22:12.581264",
+ "modified_by": "Administrator",
+ "module": "Frappe Tours",
+ "name": "Web Translations",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
