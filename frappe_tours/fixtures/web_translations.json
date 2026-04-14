@@ -946,5 +946,101 @@
   "translated_field": "brief",
   "translated_key": "brief",
   "translated_value": "Behind every great journey is a dedicated team. Our travel experts, guides, and coordinators work together to make your Egyptian adventure smooth, safe, and truly memorable."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Translations",
+  "locale": "ROM",
+  "modified": "2026-04-14 19:01:41.308306",
+  "name": "vclpehpt28",
+  "parent_id": "contact",
+  "parent_type": "Web Page",
+  "translated_field": "brief",
+  "translated_key": "brief",
+  "translated_value": "Contactați-ne pentru întrebări despre proiecte, parteneriate sau doar pentru a saluta."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Translations",
+  "locale": "RU",
+  "modified": "2026-04-14 19:01:41.308782",
+  "name": "vclgb9iejp",
+  "parent_id": "contact",
+  "parent_type": "Web Page",
+  "translated_field": "title",
+  "translated_key": "title",
+  "translated_value": "Свяжитесь с нами"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Translations",
+  "locale": "DE",
+  "modified": "2026-04-14 19:01:41.309016",
+  "name": "vclvcbq7pn",
+  "parent_id": "contact",
+  "parent_type": "Web Page",
+  "translated_field": "title",
+  "translated_key": "title",
+  "translated_value": "Kontaktieren Sie uns"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Translations",
+  "locale": "EN",
+  "modified": "2026-04-14 19:01:41.309505",
+  "name": "vclb90cco3",
+  "parent_id": "contact",
+  "parent_type": "Web Page",
+  "translated_field": "brief",
+  "translated_key": "brief",
+  "translated_value": "Reach out to us for project inquiries, partnerships, or just to say hello."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Translations",
+  "locale": "ROM",
+  "modified": "2026-04-14 19:01:41.309946",
+  "name": "vclr8me836",
+  "parent_id": "contact",
+  "parent_type": "Web Page",
+  "translated_field": "title",
+  "translated_key": "title",
+  "translated_value": "Contactați-ne"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Translations",
+  "locale": "EN",
+  "modified": "2026-04-14 19:01:41.310461",
+  "name": "vcl1p7uomc",
+  "parent_id": "contact",
+  "parent_type": "Web Page",
+  "translated_field": "title",
+  "translated_key": "title",
+  "translated_value": "Get in Touch"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Translations",
+  "locale": "RU",
+  "modified": "2026-04-14 19:01:41.343364",
+  "name": "vcltj8urpi",
+  "parent_id": "contact",
+  "parent_type": "Web Page",
+  "translated_field": "brief",
+  "translated_key": "brief",
+  "translated_value": "Свяжитесь с нами для запросов по проектам, партнерствам или просто чтобы поздороваться."
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Web Translations",
+  "locale": "DE",
+  "modified": "2026-04-14 19:01:41.344664",
+  "name": "vcl8vlhp49",
+  "parent_id": "contact",
+  "parent_type": "Web Page",
+  "translated_field": "brief",
+  "translated_key": "brief",
+  "translated_value": "Kontaktieren Sie uns für Projektanfragen, Partnerschaften oder einfach nur, um Hallo zu sagen."
  }
 ]

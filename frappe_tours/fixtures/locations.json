@@ -1,0 +1,35 @@
+[
+ {
+  "code": "C",
+  "docstatus": 0,
+  "doctype": "Locations",
+  "image": null,
+  "is_group": 0,
+  "modified": "2026-03-24 20:16:00.427061",
+  "name": "Cairo",
+  "old_parent": "",
+  "parent_locations": null
+ },
+ {
+  "code": "SSH",
+  "docstatus": 0,
+  "doctype": "Locations",
+  "image": null,
+  "is_group": 0,
+  "modified": "2026-03-24 20:30:20.707973",
+  "name": "Sharm Sheikh",
+  "old_parent": "",
+  "parent_locations": null
+ },
+ {
+  "code": "H",
+  "docstatus": 0,
+  "doctype": "Locations",
+  "image": "/private/files/hurghada.jpg",
+  "is_group": 0,
+  "modified": "2026-04-14 01:17:10.598160",
+  "name": "Hurghada",
+  "old_parent": "",
+  "parent_locations": null
+ }
+]

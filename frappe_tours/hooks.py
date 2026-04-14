@@ -32,6 +32,13 @@ fixtures = [
 			["module", "=", "Frappe Tours"]
 		]
 	},
+{
+		"doctype": "Tours",
+	},
+
+    {
+		"doctype": "Locations",
+	},
     {
 		"doctype": "Web Translations",
 

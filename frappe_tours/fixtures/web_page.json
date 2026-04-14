@@ -358,7 +358,7 @@
   "meta_description": null,
   "meta_image": null,
   "meta_title": null,
-  "modified": "2026-03-22 16:58:36.680472",
+  "modified": "2026-04-14 19:01:43.184682",
   "module": "Frappe Tours",
   "name": "contact",
   "page_blocks": [
@@ -375,7 +375,7 @@
     "hide_block": 0,
     "section_id": null,
     "web_template": "Contact Info",
-    "web_template_values": "{\"title\":\"Get in Touch\",\"brief\":\"Reach out to us for project inquiries, partnerships, or just to say hello.\",\"items\":[{\"idx\":1,\"__islocal\":true,\"icon\":\"📍\",\"label\":\"Address\",\"value\":\"King Abdullah Rd, Riyadh, Saudi Arabia\",\"name\":\"item_address\"},{\"idx\":2,\"__islocal\":true,\"icon\":\"📞\",\"label\":\"Phone\",\"value\":\"+966 59 6888 111\",\"name\":\"item_phone\"},{\"idx\":3,\"__islocal\":true,\"icon\":\"✉️\",\"label\":\"Email\",\"value\":\"info@gulfelite.sa\",\"name\":\"item_email\"}],\"map_embed\":\"\"}"
+    "web_template_values": "{\"title\":\"Get in Touch\",\"brief\":\"Reach out to us for project inquiries, partnerships, or just to say hello.\",\"items\":[{\"idx\":1,\"__islocal\":true,\"icon\":\"📍\",\"label\":\"Address\",\"value\":\"Egypt Cairo\",\"name\":\"item_address\"},{\"idx\":2,\"__islocal\":true,\"icon\":\"📞\",\"label\":\"Phone\",\"value\":\"+966 59 6888 111\",\"name\":\"item_phone\"},{\"idx\":3,\"__islocal\":true,\"icon\":\"✉️\",\"label\":\"Email\",\"value\":\"info@gulfelite.sa\",\"name\":\"item_email\"}],\"translations\":{\"ROM\":[{\"field\":\"title\",\"translated_value\":\"Contactați-ne\"},{\"field\":\"brief\",\"translated_value\":\"Contactați-ne pentru întrebări despre proiecte, parteneriate sau doar pentru a saluta.\"}],\"RU\":[{\"field\":\"title\",\"translated_value\":\"Свяжитесь с нами\"},{\"field\":\"brief\",\"translated_value\":\"Свяжитесь с нами для запросов по проектам, партнерствам или просто чтобы поздороваться.\"}],\"DE\":[{\"field\":\"title\",\"translated_value\":\"Kontaktieren Sie uns\"},{\"field\":\"brief\",\"translated_value\":\"Kontaktieren Sie uns für Projektanfragen, Partnerschaften oder einfach nur, um Hallo zu sagen.\"}],\"EN\":[{\"field\":\"title\",\"translated_value\":\"Get in Touch\"},{\"field\":\"brief\",\"translated_value\":\"Reach out to us for project inquiries, partnerships, or just to say hello.\"}]}}"
    }
   ],
   "published": 1,

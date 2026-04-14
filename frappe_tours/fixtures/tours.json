@@ -1,0 +1,62 @@
+[
+ {
+  "description": "<div class=\"ql-editor read-mode\"><p>asdlka;skfj</p></div>",
+  "docstatus": 0,
+  "doctype": "Tours",
+  "external_transfer_fee": 0.0,
+  "from_destination": null,
+  "image": null,
+  "images": [],
+  "included_on_the_package": null,
+  "internal_transfer_fee": 0.0,
+  "launch_included": 1,
+  "modified": "2026-03-24 20:37:09.007891",
+  "name": "ahsh",
+  "not_included_on_the_package": null,
+  "price_per_adult": 1020.0,
+  "price_per_child": 200.0,
+  "program": [],
+  "to_destination": null,
+  "tour_guide_included": 1,
+  "transfer_fee": 0.0,
+  "transfer_type": null
+ },
+ {
+  "description": "<div class=\"ql-editor read-mode\"><h2><br></h2><p>Embark on the ultimate Red Sea adventure with our premium yacht tour to Orange Bay. This full-day luxury yacht tour offers the perfect blend of relaxation and excitement.</p><p>You’ll sail through crystal-clear waters aboard a well-equipped vessel. This private charter yacht tour experience includes multiple water activities and stunning scenery.</p><p>Discover why this is considered one of the best yacht tours near Hurghada. The combination of snorkeling, island time, and onboard dining creates unforgettable memories.</p><p>Whether you’re seeking adventure or relaxation, this yacht tour delivers both. The professional crew ensures your safety and enjoyment throughout the journey.</p><p>Book your spot on this exceptional yacht tour today. Experience the Red Sea like never before on this comprehensive Orange Bay adventure.</p></div>",
+  "docstatus": 0,
+  "doctype": "Tours",
+  "external_transfer_fee": 0.0,
+  "from_destination": "Cairo",
+  "image": "/private/files/hurghada.jpg",
+  "images": [
+   {
+    "file": "/private/files/marsa_alam.jpg"
+   },
+   {
+    "file": "/private/files/hurghada.jpg"
+   },
+   {
+    "file": "/private/files/aswan.jpg"
+   }
+  ],
+  "included_on_the_package": "<div class=\"ql-editor read-mode\"><p> Hotel pickup and drop-off from Hurghada</p><p> Luxury sailing experience aboard a well-equipped boat, Snorkeling equipment provided for a seamless experience, and more</p><p> Delicious open buffet lunch featuring fresh local flavors</p><p> Shared Photographer per person (Optional add-on - $30)</p><p> FTS Scarve (Optional add-on - $10)</p><p> Comfortable transportation by air-conditioned vehicle and Transfers from Al Ahyaa, Makadi Bay, Sahl Hasheesh, Soma</p><p> FTS Organic oils - 100% pure (Optional add-on - $10)</p></div>",
+  "internal_transfer_fee": 10.0,
+  "launch_included": 0,
+  "modified": "2026-04-14 14:48:56.998660",
+  "name": "Cairo T Hurghada",
+  "not_included_on_the_package": "<div class=\"ql-editor read-mode\"><p> Optional add-ons unless selected</p><p> Travel insurance</p><p> Personal expenses and shopping</p><p> Gratuities and tips</p></div>",
+  "price_per_adult": 100.0,
+  "price_per_child": 0.0,
+  "program": [
+   {
+    "action": "Scenic Sailing to the Reefs | ⭐ Highlight | Panoramic Views",
+    "description": "Board your well-equipped luxury yacht and feel the ocean breeze as you set sail. Glide across the turquoise waters, admiring the stunning Red Sea coastline unfolding before you. This relaxing cruise is the perfect introduction to your private charter yacht tour, building anticipation for the underwater adventures ahead.",
+    "time": "Morning 7-8 AM"
+   }
+  ],
+  "to_destination": "Hurghada",
+  "tour_guide_included": 0,
+  "transfer_fee": 2000.0,
+  "transfer_type": "Plane"
+ }
+]
