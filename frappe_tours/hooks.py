@@ -39,6 +39,10 @@ fixtures = [
     {
 		"doctype": "Locations",
 	},
+{
+		"doctype": "File",
+
+	},
     {
 		"doctype": "Web Translations",
 
