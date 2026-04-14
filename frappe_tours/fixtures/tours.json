@@ -27,16 +27,16 @@
   "doctype": "Tours",
   "external_transfer_fee": 0.0,
   "from_destination": "Cairo",
-  "image": "/private/files/hurghada.jpg",
+  "image": "/files/hurghada.jpg",
   "images": [
    {
-    "file": "/private/files/marsa_alam.jpg"
+    "file": "/files/marsa_alam.jpg"
    },
    {
-    "file": "/private/files/hurghada.jpg"
+    "file": "/files/hurghada.jpg"
    },
    {
-    "file": "/private/files/aswan.jpg"
+    "file": "/files/aswan.jpg"
    }
   ],
   "included_on_the_package": "<div class=\"ql-editor read-mode\"><p> Hotel pickup and drop-off from Hurghada</p><p> Luxury sailing experience aboard a well-equipped boat, Snorkeling equipment provided for a seamless experience, and more</p><p> Delicious open buffet lunch featuring fresh local flavors</p><p> Shared Photographer per person (Optional add-on - $30)</p><p> FTS Scarve (Optional add-on - $10)</p><p> Comfortable transportation by air-conditioned vehicle and Transfers from Al Ahyaa, Makadi Bay, Sahl Hasheesh, Soma</p><p> FTS Organic oils - 100% pure (Optional add-on - $10)</p></div>",
